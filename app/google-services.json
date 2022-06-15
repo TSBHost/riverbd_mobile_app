@@ -1,56 +1,36 @@
 {
   "project_info": {
-    "project_number": "968095987313",
-    "firebase_url": "https://mdspbd-1a94d.firebaseio.com",
-    "project_id": "mdspbd-1a94d",
-    "storage_bucket": "mdspbd-1a94d.appspot.com"
+    "project_number": "330486653162",
+    "project_id": "riverbd-4cc3d",
+    "storage_bucket": "riverbd-4cc3d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:968095987313:android:fc4078ac788ac582",
+        "mobilesdk_app_id": "1:330486653162:android:15dbe4572a0eb157457793",
         "android_client_info": {
-          "package_name": "app.wasimappbd.softxmagic.mdspbdnew"
+          "package_name": "app.tsbhost.basher.riverbd"
         }
       },
       "oauth_client": [
         {
-          "client_id": "968095987313-nopeveojm7hb9l1dn2nt2u3po3l7lg5q.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "app.wasimappbd.softxmagic.mdspbdnew",
-            "certificate_hash": "1bc5e787f655812f222a2a2effa89d6117401582"
-          }
-        },
-        {
-          "client_id": "968095987313-katn9v603r1mghcp5iv9roov83knfboc.apps.googleusercontent.com",
-          "client_type": 3
-        },
-        {
-          "client_id": "968095987313-katn9v603r1mghcp5iv9roov83knfboc.apps.googleusercontent.com",
+          "client_id": "330486653162-qt5e004bbrp1ahmk6s328i0us7s82qmc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBt6mwO1hMyDvHMjLvyzORQOw98HFFwhGQ"
+          "current_key": "AIzaSyCDToJUGbMC5BRYlzHnDT37w7t3o5GLiOE"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "968095987313-katn9v603r1mghcp5iv9roov83knfboc.apps.googleusercontent.com",
+              "client_id": "330486653162-qt5e004bbrp1ahmk6s328i0us7s82qmc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

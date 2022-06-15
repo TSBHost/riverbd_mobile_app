@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="app.wasimappbd.softxmagic.mdspbdnew.ResourceActivity">
+    tools:context="app.tsbhost.basher.riverbd.ResourceActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

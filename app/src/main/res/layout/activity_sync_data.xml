@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingTop="?attr/actionBarSize"
-    tools:context="app.wasimappbd.softxmagic.mdspbdnew.SyncActivity">
+    tools:context="app.tsbhost.basher.riverbd.SyncActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

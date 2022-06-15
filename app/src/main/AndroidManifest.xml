@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="app.wasimappbd.softxmagic.mdspbdnew">
+    package="app.tsbhost.basher.riverbd">
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -30,7 +30,7 @@
 
     <!--android:name=".MyApplication"-->
     <application
-        android:name="app.wasimappbd.softxmagic.mdspbdnew.MyApplication"
+        android:name="app.tsbhost.basher.riverbd.MyApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
@@ -39,7 +39,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SlashScreen"
+            android:name="app.tsbhost.basher.riverbd.SlashScreen"
             android:configChanges="orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
@@ -51,48 +51,48 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Login"
+            android:name="app.tsbhost.basher.riverbd.Login"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".LoginActivity"
+            android:name="app.tsbhost.basher.riverbd.LoginActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".GridViewActivity"
+            android:name="app.tsbhost.basher.riverbd.GridViewActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".NavigationActivity"
+            android:name="app.tsbhost.basher.riverbd.NavigationActivity"
             android:configChanges="orientation"
             android:label="@string/title_activity_navigation"
             android:screenOrientation="portrait" />
 
         <!-- <service android:name=".LocationService" android:process=":my_service" /> -->
         <activity
-            android:name=".SubmittedForm"
+            android:name="app.tsbhost.basher.riverbd.SubmittedForm"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ShelterDetails"
+            android:name="app.tsbhost.basher.riverbd.ShelterDetails"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ContentDetails"
+            android:name="app.tsbhost.basher.riverbd.ContentDetails"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
 
         <!-- <service android:name=".GoogleService" /> -->
 
         <activity
-            android:name=".FeedbackList"
+            android:name="app.tsbhost.basher.riverbd.FeedbackList"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FeedbackForm"
+            android:name="app.tsbhost.basher.riverbd.FeedbackForm"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
 
@@ -109,7 +109,7 @@
         -->
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="app.wasimappbd.softxmagic.mdspbdnew.provider"
+            android:authorities="app.tsbhost.basher.riverbd.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -118,7 +118,7 @@
         </provider>
 
         <receiver
-            android:name=".ConnectivityReceiver"
+            android:name="app.tsbhost.basher.riverbd.ConnectivityReceiver"
             android:enabled="true"
             android:label="ConnectivityReceiver">
             <intent-filter>
@@ -128,124 +128,124 @@
         <!-- <service android:name=".NetworkService"></service> -->
 
         <activity
-            android:name=".SyncData"
+            android:name="app.tsbhost.basher.riverbd.SyncData"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SaveSubmissionActivity"
+            android:name="app.tsbhost.basher.riverbd.SaveSubmissionActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
-        <activity android:name=".SavedSubmissionDetails" />
+        <activity android:name="app.tsbhost.basher.riverbd.SavedSubmissionDetails" />
         <activity
-            android:name=".FormStep1Activity"
-            android:configChanges="orientation"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".FormStep2Activity"
+            android:name="app.tsbhost.basher.riverbd.FormStep1Activity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FormStep3Activity"
+            android:name="app.tsbhost.basher.riverbd.FormStep2Activity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FormStep4Activity"
+            android:name="app.tsbhost.basher.riverbd.FormStep3Activity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FormStep5Activity"
+            android:name="app.tsbhost.basher.riverbd.FormStep4Activity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FormStep6Activity"
+            android:name="app.tsbhost.basher.riverbd.FormStep5Activity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FormStep7Activity"
-            android:configChanges="orientation"
-            android:screenOrientation="portrait" />
-        <activity android:name=".FormStep8Activity" />
-        <activity
-            android:name=".FormStep9Activity"
+            android:name="app.tsbhost.basher.riverbd.FormStep6Activity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FormStep10Activity"
+            android:name="app.tsbhost.basher.riverbd.FormStep7Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity android:name="app.tsbhost.basher.riverbd.FormStep8Activity" />
+        <activity
+            android:name="app.tsbhost.basher.riverbd.FormStep9Activity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SaveResourcesActivity"
+            android:name="app.tsbhost.basher.riverbd.FormStep10Activity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ResourceActivity"
+            android:name="app.tsbhost.basher.riverbd.SaveResourcesActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.tsbhost.basher.riverbd.ResourceActivity"
             android:configChanges="orientation"
             android:label="@string/title_activity_resource"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".ResourceStep1"
+            android:name="app.tsbhost.basher.riverbd.ResourceStep1"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ResourceStep2"
+            android:name="app.tsbhost.basher.riverbd.ResourceStep2"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ResourceStep3"
+            android:name="app.tsbhost.basher.riverbd.ResourceStep3"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ResourceStep4"
+            android:name="app.tsbhost.basher.riverbd.ResourceStep4"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ResourceStep5"
+            android:name="app.tsbhost.basher.riverbd.ResourceStep5"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ResourceStep6"
+            android:name="app.tsbhost.basher.riverbd.ResourceStep6"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ResourceStep7"
+            android:name="app.tsbhost.basher.riverbd.ResourceStep7"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ResourceStep8"
+            android:name="app.tsbhost.basher.riverbd.ResourceStep8"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ResourceStep9"
+            android:name="app.tsbhost.basher.riverbd.ResourceStep9"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ResourceDetails"
+            android:name="app.tsbhost.basher.riverbd.ResourceDetails"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ResourceShelter"
+            android:name="app.tsbhost.basher.riverbd.ResourceShelter"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
-        <activity android:name=".LoginWithPin" />
+        <activity android:name="app.tsbhost.basher.riverbd.LoginWithPin" />
         <activity
-            android:name=".FeedBackInsert"
+            android:name="app.tsbhost.basher.riverbd.FeedBackInsert"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".NotificationDemo"
+            android:name="app.tsbhost.basher.riverbd.NotificationDemo"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
 
         <service
-            android:name=".MyFirebaseInstanceIDService">
+            android:name="app.tsbhost.basher.riverbd.MyFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
             </intent-filter>
         </service>
 
         <service
-            android:name=".MyFirebaseMessagingService">
+            android:name="app.tsbhost.basher.riverbd.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
             </intent-filter>

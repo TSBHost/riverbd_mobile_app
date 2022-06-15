@@ -5,11 +5,11 @@ android {
     buildToolsVersion '28.0.3'
     useLibrary 'org.apache.http.legacy'
     defaultConfig {
-        applicationId "app.wasimappbd.softxmagic.mdspbdnew"
+        applicationId "app.tsbhost.basher.riverbd"
         minSdkVersion 16
         targetSdkVersion 27
         versionCode 18
-        versionName "1.2.0.12"
+        versionName "2.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
     }

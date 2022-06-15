@@ -9,7 +9,7 @@
     android:paddingLeft="8dp"
     android:paddingRight="8dp"
     android:paddingTop="?attr/actionBarSize"
-    tools:context="app.wasimappbd.softxmagic.mdspbdnew.LoginActivity">
+    tools:context="app.tsbhost.basher.riverbd.LoginActivity">
 
     <!-- Login progress -->
     <ProgressBar

@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/slashscreen2"
     android:theme="@style/FullscreenTheme"
-    tools:context="app.wasimappbd.softxmagic.mdspbdnew.SlashScreen">
+    tools:context="app.tsbhost.basher.riverbd.SlashScreen">
 
     <LinearLayout
         android:id="@+id/slashscreenid"

@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">MDSP ICT Monitoring</string>
+    <string name="app_name">RIVER ICT Monitoring</string>
     <string name="FCM_PREF">app.wasimappbd.softxmagic.mdspbdnew.fcm_pref</string>
     <string name="FCM_TOKEN">app.wasimappbd.softxmagic.mdspbdnew.fcm_token</string>
-    <string name="channel_name">CMMS MDSP</string>
+    <string name="channel_name">CMMS RIVER</string>
     <string name="channel_description">Construction Management &amp; Monitoring System</string>
 
 
@@ -33,11 +33,11 @@
     <string name="title_exPin">Login with existing PIN ?</string>
     <string name="title_user">User ID </string>
     <string name="title_pass">Password</string>
-    <string name="title_lonline">MDSP User Login</string>
+    <string name="title_lonline">RIVER User Login</string>
 
 
     <string name="deleteContact">Do you want to delete all data from your device ?\n\n(Shelters, Tasks, Submissions, Images)</string>
-    <string name="logutcont">Do you want to logout MDSP from your device ?</string>
+    <string name="logutcont">Do you want to logout RIVER from your device ?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
 
@@ -275,7 +275,7 @@
         <item>ICT Training</item>
         <item>Social Management Plan Implementation Training</item>
         <item>Environmental Management Plan Implementation Training</item>
-        <item>MDSP Operational / Awareness building Training</item>
+        <item>RIVER Operational / Awareness building Training</item>
         <item>Motivational Training</item>
         <item>Electrical Training</item>
         <item>Plumbing Training</item>
